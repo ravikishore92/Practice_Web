@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+   <style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        background-image: url('p1.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+    }
+    
+    .navbar{
+        display: flex;
+        background-color: #0f5298;
+        height: 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin:0%;
+    }
+    .navbar > div{
+        justify-content: center;
+        color: white;
+        padding:20px;
+    }
+    .navbar > div:hover{
+        background-color: rgb(50, 5, 93);
+    }
+    .log
+    {
+        margin-left: auto;
+        margin-bottom: 0;
+        
+    }
+    .navbar2{
+        margin-top: 0;
+        background-color: #2565ae;
+        height: 80px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .navbar2 p{
+        margin-top: 0;
+        color: white;
+        font-size: 30px;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    .part1
+    {
+        display: flex;
+    }
+    .sidebar{
+        display:flex;
+        flex-direction: column;
+        height:600px;
+        width: 250px;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #3c99dc;
+    }
+    .sidebar div{
+        padding-top: 17px;
+        padding-left: 10px;
+        color: white;
+        height: 40px;
+        padding-right: ;
+
+
+    }
+    .sidebar div:hover{
+        background-color: #2565ae;
+    }
+    .card1-flex{
+        display: flex;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        width: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 80px;
+        background-color: white;
+        gap: 20px;
+        height: 150px;
+        padding: 20px;
+        
+    }
+    .btn{
+        background-color: #0f5298;
+        border: none;
+        border-radius: 9px;
+        height: 30px;
+        width: 300px;
+        margin-left: 15px;
+        color: white;
+    }
+    .card2-flex{
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .sen1{
+        
+        padding-left: 100px;
+    }
+    .res{
+        font-size: 40px;
+        text-align: center;
+        height: 80px;
+    }
+    
+     
+   </style>
+</head>
+<body>
+    <div class="navbar">
+       <div> Home</div>
+       <div>Problems</div>
+       <div>Register</div>
+       <div class="log">Login</div>
+    </div>
+    <div class="navbar2">
+        <p>Hiring Manager Dashboard</p>
+    </div>
+    <div class="part1">
+         <div class="sidebar">
+             <div>Home</div>
+             <div>Availble</div>
+             <div>Reserveble</div>
+             <div>Onboard</div>
+             <div>jobs</div>
+         </div>
+         <div class="cards1-list">
+            <div class="res">Resources</div>
+            
+<div class="card1-flex">
+    <div class="card">
+        <div><b class="sen1">Available Resources</b></div>
+        <div>View all the available resource profiles accross accounts, lock/unlock the resources.</div>
+        <div><button class="btn">View Profiles</button></div>
+    </div>
+    <div class="card">
+        <div><b class="sen1">Reserved Resources</b></div>
+        <div>View Reserved resources by your account, onboard/unlock the resource</div>
+        <div><button class="btn">View Reserved Profiles</button></div>
+    </div>
+    <div class="card">
+        <div><b class="sen1">Onboarded Resources</b></div>
+        <div>View the onboarded resources to your account.</div>
+        <div><button class="btn">View Onboarded Profiles</button></div>
+    </div>
+</div>
+<div class="card2-flex">
+<div class="card">
+    <div><b class="sen1">View Jobs</b></div>
+    <div>View the jobs which are posted from your account.</div>
+    <div><button class="btn">View Jobs</button></div>
+</div>
+<div class="card">
+    <div><b class="sen1">Create Job</b></div>
+    <div>Create job with the necessary fields like skills,minimum exp,shore etc.,</div>
+    <div><button class="btn">Create Job</button></div>
+</div>
+</div>
+         </div>
+    </div>
+    
+
+         
+    
+    
+</body>
+</html>

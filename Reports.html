@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+   <style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        background-image: url('p1.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+    }
+    
+    .navbar{
+        display: flex;
+        background-color: #0f5298;
+        height: 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin:0%;
+    }
+    .cog{
+        font-size: 1.5rem;
+        font-weight: 650;
+        padding-bottom: 7px;
+        padding-left: 5px;
+        text-shadow: 0 2px 4px rgba(0,0,0,.75);
+    }
+    .navbar > .cog{
+        justify-content: center;
+        color: white;
+        padding:20px;
+    }
+    .right-nav > div{
+        justify-content: center;
+        color: white;
+        padding:20px;
+    }
+    .navbar > .cog:hover{
+        background-color: rgb(50, 5, 93);
+    }
+    .right-nav > div:hover{
+        background-color: rgb(50, 5, 93);
+    }
+    .log
+    {
+        margin-left: auto;
+        margin-bottom: 0;
+        
+    }
+    .navbar2{
+        margin-top: 0;
+        
+        background-color: #2565ae;
+        height: 70px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .navbar2 p{
+        margin-top: 0;
+        color: white;
+        font-size: 30px;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    .part1
+    {
+        display: flex;
+    }
+    .sidebar{
+        display:flex;
+        flex-direction: column;
+        height:600px;
+        width: 250px;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #3c99dc;
+    }
+    .sidebar div{
+        padding-top: 17px;
+        padding-left: 10px;
+        color: white;
+        height: 40px;
+        padding-right: 50px;
+
+
+    }
+    .sidebar div:hover{
+        background-color: #2565ae;
+    }
+    .card1-flex{
+        display: flex;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        width: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 80px;
+        background-color: white;
+        gap: 20px;
+        height: 150px;
+        padding: 20px;
+        
+    }
+    .btn{
+        background-color: #0f5298;
+        border: none;
+        border-radius: 2vh;
+        font-weight: bolder;
+        height: 30px;
+        width: 300px;
+        margin-left: 15px;
+        color: white;
+        box-shadow: 0 2px 4px 0.5px rgba(0,0,0,.2), 0 4px 6px 0.5px rgba(0,0,0,.2);
+    }
+   
+    
+    .sen1{
+        
+        padding-left: 100px;
+    }
+    .res{
+        font-size: 40px;
+        text-align: center;
+        height: 80px;
+    }
+    .right-nav{
+        display: flex;
+        margin-left: auto;
+    }
+     
+   </style>
+</head>
+<body>
+    <div class="navbar">
+       <div class="cog">Cognizant</div>
+       <div class="right-nav">
+        <div>Hiring Manager</div>
+        <div>Releasing Manager</div>
+        <div >Reports</div>
+      </div>
+    </div>
+    <div class="navbar2">
+        <p>Reports Dashboard</p>
+    </div>
+    <div class="part1">
+         <div class="sidebar">
+             <div>Home</div>
+             <div>Annual</div>
+             <div>Month</div>
+             <div>Transfers</div>
+            
+         </div>
+         <div class="cards1-list">
+            <div class="res">Reports</div>
+            <div class="card1-flex">
+                <div class="card">
+                    <div><b class="sen1">Annual Reports</b></div>
+                    <div>View/export the annual report of available, reserved, onboarded resources from your account</div>
+                    <div><button class="btn">View Reports</button></div>
+                </div>
+                <div class="card">
+                    <div><b class="sen1">Monthly Reports</b></div>
+                    <div>View/export the monthly report of available, reserved, onboarded resources from your account</div>
+                    <div><button class="btn">View Reports</button></div>
+                </div>
+                <div class="card">
+                    <div><b class="sen1">Account Transfer Reports</b></div>
+                    <div>View/export the reports of resources transferred from one account to another account.</div>
+                    <div><button class="btn">View Reports</button></div>
+                </div>
+            </div>
+            
+         </div>
+    </div>
+    
+
+         
+    
+    
+</body>
+</html>
